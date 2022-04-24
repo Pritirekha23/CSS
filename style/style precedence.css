@@ -1,0 +1,18 @@
+div p{
+    background-color: brown;
+}
+
+div >p{
+    background-color: yellowgreen;
+}
+.c1{
+    background-color: pink;
+}
+#id1{
+    background-color: palevioletred;
+}
+p{
+    background-color: aqua!important ;
+}
+
+/* by using important u can ovveride it the color or style precedence */

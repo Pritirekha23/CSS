@@ -1,0 +1,23 @@
+.l1{
+    height: 400px;
+    width: 200px;
+    background-color: aqua;
+    font-size: 30px;
+    color: rgb(37, 6, 30);
+    padding: 30px;
+    border: 20px double rgb(247, 138, 241);
+    /* instead of we will use background color */
+    background-color: rgb(131, 226, 43);
+    
+    /* background-size: cover; */
+
+    background-size: contain;
+
+    background-repeat: no-repeat;
+    /* background-clip: border-box; */
+    /* background-clip: padding-box; */
+    background-clip: content-box;
+}
+
+
+

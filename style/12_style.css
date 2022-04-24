@@ -1,0 +1,27 @@
+.F1{
+    height: 500px;
+    width: 100%;
+    /* background-image: linear-gradient(to right ,rgb(230, 26, 26),rgb(41, 240, 41));
+    background-image: linear-gradient(to  bottom right ,rgb(230, 26, 26),rgb(41, 240, 41));
+    background-image: linear-gradient(45deg,rgb(230, 26, 26),rgb(41, 240, 41));
+    background-image: linear-gradient(90deg ,rgb(230, 26, 26),rgb(41, 240, 41)); */
+
+  /* here we can provide multiple colors */
+    background-image: linear-gradient(to right,red,orange,yellow,green,blue,indigo,violet
+ ); 
+ /* background-image: linear-gradient(to right, red 10%,green 30%); */
+   /* here we can provide multiple colors */
+ /* background-image: linear-gradient(to bottom left, red 20%,green 40%,pink 50%,yellow 65%,teal
+  ); */
+ 
+  /* how to make transparent  */
+  /* ans- using rgba */
+  /* background-image: linear-gradient(rgba(230,0,0,0.5),rgba(195, 235, 195,0.2)); */
+
+ /* repeat gradient:- if u want to repeat tyhen use */
+ 
+      /* background-image: repeating-linear-gradient(rgb(223, 23, 23) 10%,rgb(7, 90, 7) 20%) */
+
+
+
+}

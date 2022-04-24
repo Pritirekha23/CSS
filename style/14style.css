@@ -1,0 +1,56 @@
+.box{
+    height: 400px;
+    width: 600px;
+    background-color: rgba(0, 255, 255, 0.352);
+  margin: 30px;
+  position: relative;
+
+}
+.box div{
+    display: inline-block;
+}
+#div1{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(12, 27, 238);
+    border-radius: 50%;
+    /* static is by default,in top and left also there is no changes bcz it is default so dont worry about 1st div  */
+    /* position: static; 
+    top: 100px;
+    left: 100px; */
+}
+#div2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(202, 16, 174);
+    border-radius: 50%;
+     position: relative;
+     /* left: 20px; */
+     /* top:100px ; */
+    /*left: 20px;
+    top: 50px;*/
+    
+    /* form its original position it is taking left 20px */ */
+
+    
+    /* relatiive no other element can be placed
+    still it is occuping its original place */
+  
+}
+#div3{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(22, 227, 22);
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    /* left: 35px;
+    top: 100px;  */
+}
+#div4{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(191, 24, 29);
+    /* border-radius: 50%; */
+
+}

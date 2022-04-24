@@ -1,0 +1,63 @@
+.s1{
+    height: 300px;
+    width: 300px;
+    /* border-radius: 50%; */
+    /* background-color: red; */
+
+    /* background-image: conic-gradient(red,green,yellow); */
+   
+     /* how to hide the statring point */
+   /* ans :-start color is equal to end color
+    background-image: conic-gradient(red,green,yellow,blue,teal,pink,black,orange,red); */
+    /* if u want to start and stop at same color then u provide */
+
+    /* background-image: conic-gradient(red 180deg,green,yellow,blue,teal,pink,orange); */
+    /* background-image: conic-gradient(red 270deg,green,yellow,blue,teal,pink,orange); */
+    /* background-image: conic-gradient(at 25% 25%,red 180deg,green,yellow,blue,teal,pink,orange); */
+  
+    /* background-image: conic-gradient(at 80% 80%,red 180deg,green,yellow,blue,teal,pink,orange); */
+/* 
+    how to add  start and stop value means spinner kind of things */
+     /* start stop value */
+     
+         /* start -green 0deg, 
+          end-green 20deg,
+         start-yellow 20deg,
+         end-yellow 40deg */
+     /* background-image: repeating-conic-gradient(
+         green 0deg,
+         green 20deg,
+         yellow 20deg,
+         yellow 40deg
+         ); */
+
+         /* work with transparent color provide rgba */
+      /* background-image:conic-gradient(rgba(219, 45, 125, 0.3),rgba(144, 190, 122, 0.705)); */
+/* 
+      /* background-image:repeating-conic-gradient(
+      yellow 0deg,
+      rgb(42, 193, 212) 90deg,
+      black 90deg,
+      black 180deg
+      );
+      border: 5px solid rgb(49, 211, 49);
+      
+      background-size: 100px 100px; */
+       
+
+      /* radial gradient */
+      border-radius: 300px;
+      /* background-image: radial-gradient(red,blue,yellow,green,pink,teal); */
+      /* background-image: radial-gradient(red,blue,yellow, black,blue,green,orange,pink,teal,tomato,red,teal); */
+      /* background-image: radial-gradient(red ,blue 10%,yellow 20%,black 10%,green 15%,orange 12%,pink 20%,teal 20%,tomato ); */
+      /* background-image: radial-gradient(red 180deg,green,yellow,blue,teal,pink,orange); */
+       
+      /* background-image: radial-gradient(red,black); */
+       /* background-image: radial-gradient(circle,red ,blue); */
+       /* background-image: repeating-radial-gradient(
+           rgb(32, 6, 6) 10%,
+           rgb(215, 224, 230) 20%,
+           rgb(65, 206, 206) 25%,
+           rgb(231, 17, 17) 30%
+           );
+    } */

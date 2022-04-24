@@ -1,0 +1,15 @@
+/* general sibling selector */
+/* it will aplly until 
+after p there is any h2 try to apply colors */
+p~h2{
+    background-color: green;
+}
+/* 
+/* adjacent sibling selector */
+/* thiss is apply to immideate   */
+p+h1{
+    background-color: blue;
+}
+p+h2{
+    background-color: teal;
+}

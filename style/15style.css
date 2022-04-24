@@ -1,0 +1,154 @@
+.div1{
+    background-color: aquamarine;
+    height:300px ;
+    width: 500px;
+    font-size: 40px;
+    /* border-style: dashed; */
+    /* border-style: inset; */
+    /* border-style: inherit; */
+    /* border-style: dotted; */
+    /* border-style: groove; */
+     /* border: 10px  double  red; */
+     /* border-style: ridge; */
+/* border-style: double; */
+/* border-style: outset; */
+/* border: 10px dotted red ; */
+/* border-width: 20px;
+border-color: rgb(238, 147, 215); */
+/* border shortcut */
+/* border:30px inset tomato; */
+}
+
+.div2{
+    background-color: rgba(90, 234, 23, 0.819);
+    height:500px ;
+    width: 500px;
+    border-radius: 50%;
+    border:10px inset rgb(236, 100, 211);
+}
+
+.div3{
+    background-color: teal;
+    height:250px ;
+    width: 500px;
+    
+    /* border:30px inset rgb(240, 121, 121); */
+  /* border-top: 50px inset rgb(200, 18, 79);
+  border-bottom: 50px inset rgb(9, 223, 34);
+  border-left: 50px inset rgb(207, 209, 48);
+  border-right: 50px inset rgb(227, 14, 21); */
+
+
+/* 
+  border-top: 50px solid rgb(200, 18, 79);
+  border-bottom: 50px solid rgb(9, 223, 34);
+  border-left: 50px solid rgb(207, 209, 48);
+  border-right: 50px solid rgb(227, 14, 21); *//
+
+
+
+
+}
+
+
+.div4{
+    background-color: rgb(222, 238, 238);
+    height:250px ;
+    width: 500px;
+    
+    /* border:30px inset rgb(240, 121, 121); */
+   border-top: 20px inset rgb(200, 18, 79);
+  border-bottom: 20px inset rgb(9, 223, 34);
+  border-left: 20px inset rgb(207, 209, 48);
+  border-right: 20px inset rgb(227, 14, 21); 
+  border-radius: 50%;
+}
+
+
+.div5{
+    background-color: rgb(160, 165, 165);
+    height:500px ;
+    width: 500px;
+    
+    /* border:30px inset rgb(240, 121, 121); */
+   border-top: 20px inset rgb(200, 18, 79);
+  border-bottom: 20px inset rgb(9, 223, 34);
+  border-left: 20px inset rgb(15, 144, 199);
+  border-right: none;
+  border-radius: 50%;
+
+}
+
+.div6{
+    background-color: rgb(222, 238, 238);
+    height:250px ;
+    width: 500px;
+    
+    /* border:30px inset rgb(240, 121, 121); */
+   /* border-top: 20px inset rgb(200, 18, 79);
+  border-bottom: 20px inset rgb(9, 223, 34); */
+  border-left: 20px dotted rgb(20, 230, 41);
+  border-right: 20px double rgb(227, 14, 21); 
+  border-radius: 25px;
+}
+
+
+
+
+.div7{
+    background-color: rgb(222, 238, 238);
+    height:200px ;
+    width: 600px;
+    
+    /* border:30px solid rgb(50, 166, 228); */
+   /* border-top: 20px inset rgb(200, 18, 79);
+  border-bottom: 20px inset rgb(9, 223, 34); */
+  border-left: 10px solid rgb(20, 230, 41);
+  border-right: 10px solid rgb(215, 189, 209); 
+  /* border-radius: 25px; */
+  border-radius: 65px 0px 65px 0px ;
+  text-align: center;
+  
+
+
+
+}
+
+
+
+.div8{
+    background-color: rgb(222, 238, 238);
+    height:200px ;
+    width: 600px;
+    
+
+    border: 10px solid rgb(20, 230, 41);
+    margin-top: 250px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 250px;
+    
+/* 
+    only margin means   it will going to aplly sides  */
+}
+
+
+
+.div9{
+    background-color: rgb(222, 238, 238);
+    height:200px ;
+    width: 600px;
+    
+
+    border: 10px solid rgb(241, 122, 232);
+    margin-top: 250px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 250px;
+    padding: 50px;
+    /*padding means it will going to apply all sides*/
+
+    /* shortcut */
+
+    padding: 60px 100px 50px 20px;
+}

@@ -1,0 +1,22 @@
+.l1{
+    height: 400px;
+    width: 200px;
+    background-color: aqua;
+    font-size: 30px;
+    color: rgb(37, 6, 30);
+    padding: 30px;
+    border: 20px double rgb(247, 138, 241);
+    background-image: url(/image/Arman\ malik\ pic.jpg);
+    
+    /* background-size: cover; */
+
+    background-size: contain;
+
+    background-repeat: no-repeat;
+    /* background-origin:content-box; */
+    background-origin:padding-box;
+    /* background-origin: border-box; */
+}
+
+
+

@@ -1,0 +1,12 @@
+
+/* 
+descendent selector */
+/* div p{
+    background-color: red;
+} */
+
+
+/* child selector */
+div >p{
+    background-color: teal;
+}

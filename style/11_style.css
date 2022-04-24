@@ -1,0 +1,8 @@
+.e1{
+    background-image: url(/image/20003.jpg);
+    color:rgb(205, 25, 255);
+    background-size: cover;
+    /* image is fixed and only the text is moving in background attachment */
+    background-attachment: fixed;
+
+}

@@ -1,0 +1,23 @@
+/* convert block to inline */
+h1{
+    
+    background-color: red;
+    display:inline ;
+}
+/* convert inline to block */
+span{
+background-color: yellowgreen;
+display: block;
+}
+/* <!-- inline block --> */
+div{
+    background-color: rgb(161, 161, 66);
+    border: 1px solid black;
+   padding: 10px;
+   color: rgb(50, 26, 236);
+   margin: 5px;
+   height: 155px;
+   width: 100px;
+   text-align: center;
+display:inline-block;
+}

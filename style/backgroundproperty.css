@@ -1,0 +1,24 @@
+/* .c1{
+    background-color: aqua;
+
+}
+.c2{
+    height: 900px;
+    width: 700px;
+    /* background-size: cover; u can get the picture in full */
+    /* background-size: cover;
+background-image: linear-gradient(45deg,rgba(1,178,2,0.3),rgba(1,3,120,0.2)),url(/image/Arman\ malik\ pic.jpg);
+
+}  */
+/* 
+background-repeat */
+.p1
+{
+    height: 700px;
+    width:500px;
+    background-size: cover;
+background-image: url(/image/Jagannath.jpg);
+    /* background-repeat:no-repeat ; */
+    /* background-repeat: space; */
+    
+}
